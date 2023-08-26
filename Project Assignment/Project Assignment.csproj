@@ -112,6 +112,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="images\Security Lock.png" />
+    <None Include="images\Tuition.png" />
     <Content Include="images\User.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

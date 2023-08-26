@@ -82,7 +82,7 @@ namespace Project_Assignment
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.ForeColor = System.Drawing.Color.DarkBlue;
             this.label3.Location = new System.Drawing.Point(40, 155);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 13);
