@@ -117,11 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="User" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJIAAAApCAYAAADednA4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHjSURBVHhe7dyhbsJQGEDhPfrEBAIxMTGBmEAgEHuAJYg9
+        AAIxgZiYQCAQiImJfzttbwNZaVryO86XNCFsw/Tk3ttyu7uQEhiSUhiSUhiSUhiSUhiSUvSG9PMTsdlE
+        LJcRLy8Rj48R9/cet3Jwvjnvi0XEeh3x/d2E0eFiSNtt/UFEREyfnxGHQ/ND3QTON+f94yPi9bXugaC6
+        /AuJ6vij+TzieGzelP70tXEWEr/4/Hy5OgnMVrPZ+Qx1FhK1GZGGYMpj/VS0IVEZQ5Y01NtbxPt7/boK
+        iaszFlKuiTQG3bAU2u+bkJjOmNaksRiRGJmqkLhPwCWeNNZuV49KVUhPT/XwJI3F9Pbw0IQ0mfTftZT6
+        cBe8CokX0rUMSSkMSSkMSSkMSSkMSSkMSSkMSSnakLgzyR1K6RptSHzz7zZaXasNiX1I7EeSxuI7Wr6r
+        rUIqWwGkscoWpCokpjWqcp2kscoWpCokrFb1IQ1VnnlEGxKjEZu5v76aN6QebMtmFivbj9qQwMKp7MGV
+        LiEiBh2eJCnOQgIjEjGVpwOkU6yHGIlOI8K/kMA0x1Uc1bEq9+mS28b0VdZDLK67dtN2hlRQHZd202l9
+        08njNg+2Ypf/AXFJb0jSUIakFIakFIakFIakBBG/SfHv8Nhz/a4AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="Security Lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Security Lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bunifuThinButton22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJIAAAApCAYAAADednA4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB5SURBVHhe7dIxAQAADMOg+TfdmcgJGrhBQCQSIpEQiYRI
+        JEQiIRIJkUiIREIkEiKREImESCREIiESCZFIiERCJBIikRCJhEgkRCIhEgmRSIhEQiQSIpEQiYRIJEQi
+        IRIJkUiIREIkEiKREImESCREIiESCZFIiERgeyGBL+y75xtsAAAAAElFTkSuQmCC
+</value>
   </data>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
