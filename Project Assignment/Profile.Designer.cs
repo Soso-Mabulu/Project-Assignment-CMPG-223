@@ -50,13 +50,21 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lblHome = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbTutorBookingSystem = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.lblTutorBookingSystem = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblRole = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTutorBookingSystem)).BeginInit();
             this.SuspendLayout();
             // 
             // pbProfile
@@ -193,6 +201,12 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Controls.Add(this.lblPassword);
+            this.panel1.Controls.Add(this.lblRole);
+            this.panel1.Controls.Add(this.lblEmail);
+            this.panel1.Controls.Add(this.lblUserName);
+            this.panel1.Controls.Add(this.lblTutorBookingSystem);
+            this.panel1.Controls.Add(this.pbTutorBookingSystem);
             this.panel1.Location = new System.Drawing.Point(235, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(750, 470);
@@ -206,6 +220,7 @@
             // bunifuElipse3
             // 
             this.bunifuElipse3.ElipseRadius = 35;
+            this.bunifuElipse3.TargetControl = this;
             // 
             // bunifuElipse2
             // 
@@ -242,6 +257,68 @@
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
+            // pbTutorBookingSystem
+            // 
+            this.pbTutorBookingSystem.Image = ((System.Drawing.Image)(resources.GetObject("pbTutorBookingSystem.Image")));
+            this.pbTutorBookingSystem.ImageRotate = 0F;
+            this.pbTutorBookingSystem.Location = new System.Drawing.Point(211, 62);
+            this.pbTutorBookingSystem.Name = "pbTutorBookingSystem";
+            this.pbTutorBookingSystem.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.pbTutorBookingSystem.Size = new System.Drawing.Size(62, 61);
+            this.pbTutorBookingSystem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbTutorBookingSystem.TabIndex = 0;
+            this.pbTutorBookingSystem.TabStop = false;
+            // 
+            // lblTutorBookingSystem
+            // 
+            this.lblTutorBookingSystem.AutoSize = true;
+            this.lblTutorBookingSystem.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTutorBookingSystem.Location = new System.Drawing.Point(284, 77);
+            this.lblTutorBookingSystem.Name = "lblTutorBookingSystem";
+            this.lblTutorBookingSystem.Size = new System.Drawing.Size(306, 31);
+            this.lblTutorBookingSystem.TabIndex = 1;
+            this.lblTutorBookingSystem.Text = "Tutor Booking System ";
+            // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(159, 168);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(114, 21);
+            this.lblUserName.TabIndex = 2;
+            this.lblUserName.Text = "User Name :";
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(159, 223);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(74, 21);
+            this.lblEmail.TabIndex = 3;
+            this.lblEmail.Text = "Email :";
+            // 
+            // lblRole
+            // 
+            this.lblRole.AutoSize = true;
+            this.lblRole.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRole.Location = new System.Drawing.Point(159, 271);
+            this.lblRole.Name = "lblRole";
+            this.lblRole.Size = new System.Drawing.Size(61, 21);
+            this.lblRole.TabIndex = 4;
+            this.lblRole.Text = "Role :";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(159, 317);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(101, 21);
+            this.lblPassword.TabIndex = 5;
+            this.lblPassword.Text = "Password: ";
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,7 +349,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTutorBookingSystem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,5 +380,11 @@
         private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox pbTutorBookingSystem;
+        private System.Windows.Forms.Label lblTutorBookingSystem;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.Label lblRole;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblUserName;
     }
 }
