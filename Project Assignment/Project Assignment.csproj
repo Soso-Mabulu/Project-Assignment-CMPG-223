@@ -46,7 +46,7 @@
       <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.1.0.0\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
     <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
