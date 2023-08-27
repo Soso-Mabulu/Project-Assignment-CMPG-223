@@ -26,5 +26,12 @@ namespace Project_Assignment
         {
 
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            Student student = new Student();
+            student.Show();
+            this.Hide();
+        }
     }
 }
