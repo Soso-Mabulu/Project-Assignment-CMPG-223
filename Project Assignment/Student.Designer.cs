@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
@@ -59,7 +59,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnBook = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             this.ggboxTutors.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -102,7 +102,7 @@
             // ggboxTutors
             // 
             this.ggboxTutors.BackColor = System.Drawing.Color.Transparent;
-            this.ggboxTutors.Controls.Add(this.bunifuThinButton21);
+            this.ggboxTutors.Controls.Add(this.btnBook);
             this.ggboxTutors.Controls.Add(this.bunifuCustomDataGrid1);
             this.ggboxTutors.FillColor = System.Drawing.Color.Transparent;
             this.ggboxTutors.Font = new System.Drawing.Font("Segoe UI", 9F);
@@ -344,19 +344,19 @@
             // 
             // bunifuCustomDataGrid1
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuCustomDataGrid1.DoubleBuffered = true;
             this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
@@ -368,30 +368,30 @@
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(716, 185);
             this.bunifuCustomDataGrid1.TabIndex = 0;
             // 
-            // bunifuThinButton21
+            // btnBook
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "ThinButton";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(262, 237);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(191, 41);
-            this.bunifuThinButton21.TabIndex = 1;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnBook.ActiveBorderThickness = 1;
+            this.btnBook.ActiveCornerRadius = 20;
+            this.btnBook.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btnBook.ActiveForecolor = System.Drawing.Color.White;
+            this.btnBook.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btnBook.BackColor = System.Drawing.Color.Transparent;
+            this.btnBook.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBook.BackgroundImage")));
+            this.btnBook.ButtonText = "Make an appointment";
+            this.btnBook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBook.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBook.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnBook.IdleBorderThickness = 1;
+            this.btnBook.IdleCornerRadius = 20;
+            this.btnBook.IdleFillColor = System.Drawing.Color.White;
+            this.btnBook.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.btnBook.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btnBook.Location = new System.Drawing.Point(262, 237);
+            this.btnBook.Margin = new System.Windows.Forms.Padding(5);
+            this.btnBook.Name = "btnBook";
+            this.btnBook.Size = new System.Drawing.Size(191, 41);
+            this.btnBook.TabIndex = 1;
+            this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Student
             // 
@@ -463,7 +463,7 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2GroupBox ggboxTutors;
-        private BunifuThinButton2 bunifuThinButton21;
+        private BunifuThinButton2 btnBook;
         private BunifuCustomDataGrid bunifuCustomDataGrid1;
     }
 }
