@@ -32,10 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblHome = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lblPendingAppointment = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblRateAppointment = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.pbProfile = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -71,6 +71,15 @@
             this.bunifuElipse2.ElipseRadius = 35;
             this.bunifuElipse2.TargetControl = this.panel1;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Location = new System.Drawing.Point(235, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(750, 470);
+            this.panel1.TabIndex = 0;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gainsboro;
@@ -81,10 +90,15 @@
             this.panel2.Size = new System.Drawing.Size(217, 45);
             this.panel2.TabIndex = 1;
             // 
-            // bunifuElipse3
+            // lblHome
             // 
-            this.bunifuElipse3.ElipseRadius = 35;
-            this.bunifuElipse3.TargetControl = this.panel2;
+            this.lblHome.AutoSize = true;
+            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.Location = new System.Drawing.Point(51, 14);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(58, 18);
+            this.lblHome.TabIndex = 1;
+            this.lblHome.Text = "Home ";
             // 
             // pictureBox1
             // 
@@ -96,15 +110,10 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lblHome
+            // bunifuElipse3
             // 
-            this.lblHome.AutoSize = true;
-            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHome.Location = new System.Drawing.Point(51, 14);
-            this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(58, 18);
-            this.lblHome.TabIndex = 1;
-            this.lblHome.Text = "Home ";
+            this.bunifuElipse3.ElipseRadius = 35;
+            this.bunifuElipse3.TargetControl = this.panel2;
             // 
             // lblPendingAppointment
             // 
@@ -220,6 +229,7 @@
             this.lblExit.Size = new System.Drawing.Size(36, 18);
             this.lblExit.TabIndex = 13;
             this.lblExit.Text = "Exit";
+            this.lblExit.Click += new System.EventHandler(this.lblExit_Click);
             // 
             // pbProfile
             // 
@@ -245,15 +255,6 @@
             // 
             this.bunifuElipse5.ElipseRadius = 5;
             this.bunifuElipse5.TargetControl = this;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Location = new System.Drawing.Point(235, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(750, 470);
-            this.panel1.TabIndex = 0;
             // 
             // Student
             // 

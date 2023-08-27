@@ -16,5 +16,11 @@ namespace Project_Assignment
         {
             InitializeComponent();
         }
+
+        private void lblExit_Click(object sender, EventArgs e)
+        {
+            //Close application
+            Application.Exit();
+        }
     }
 }
